@@ -1,16 +1,20 @@
-window.TrelloPowerUp.initialize({
-    'card-buttons': function (t, options) {
-      return [{
-        icon: 'https://andebasso.github.io/PowerUp/icon.png',
-        text: 'Hello World',
-        callback: function(t){
-          return t.popup({
-            title: 'Hello World Popup',
-            url: './popup.html',
-            height: 184
-          });
-        }
-      }];
-    }
-  });
+/* global TrelloPowerUp */
+var t = TrelloPowerUp.iframe();
+
+t.render(function(){
+    t.sizeTo('#content').done();
+    
+    t.card('id').get('id').then(function(cardId){
+        var btn = document.createElement('button');
+        btn.textContent = 'Hello World';
+        btn.onclick = function() {
+            t.alert({
+                message: 'Hello from your Power-Up!',
+                duration: 5,
+            });
+        };
+        document.body.appendChild(btn);
+    });
+});
+
   
