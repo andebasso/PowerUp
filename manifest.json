@@ -16,7 +16,7 @@
           "callback": "openKPI"
         }
       ],
-      "iframe": {
+      "showModal": {
         "url": "https://andebasso.github.io/PowerUp/index.html"
       }
     }
