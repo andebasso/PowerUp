@@ -1,6 +1,6 @@
 {
-    "name": "Trello KPI",
-    "description": "A Trello Power-Up to track KPIs.",
+    "name": "Hello World Power-Up",
+    "description": "Adds 'Hello World' to the activity feed of a card.",
     "icon": {
       "url": "https://andebasso.github.io/PowerUp/icon.png",
       "color": "#0079bf"
@@ -12,13 +12,15 @@
             "url": "https://andebasso.github.io/PowerUp/icon.png",
             "color": "#0079bf"
           },
-          "text": "Open KPI",
-          "callback": "openKPI"
+          "text": "Say Hello World",
+          "callback": "showHelloWorld"
         }
       ],
-      "showModal": {
-        "url": "https://andebasso.github.io/PowerUp/index.html"
+      "iframe": {
+        "url": "https://andebasso.github.io/PowerUp/index.html",
+        "height": 250
       }
     }
-  }
+}
+
   
