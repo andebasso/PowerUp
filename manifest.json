@@ -1,26 +1,19 @@
 {
-    "name": "Hello World Power-Up",
-    "description": "Adds 'Hello World' to the activity feed of a card.",
-    "icon": {
-      "url": "https://andebasso.github.io/PowerUp/icon.png",
-      "color": "#0079bf"
-    },
-    "capabilities": {
-      "cardButtons": [
-        {
-          "icon": {
-            "url": "https://andebasso.github.io/PowerUp/icon.png",
-            "color": "#0079bf"
-          },
-          "text": "Say Hello World",
-          "callback": "showHelloWorld"
-        }
-      ],
-      "iframe": {
-        "url": "https://andebasso.github.io/PowerUp/index.html",
-        "height": 250
-      }
-    }
+  "name": "Simple Hello World Power-Up",
+  "description": "A simple Power-Up that says Hello World.",
+  "author": {
+    "name": "Anderson",
+    "url": "https://andebasso.github.io/PowerUp/"
+  },
+  "icon": {
+    "url": "https://andebasso.github.io/PowerUp/icon.png",
+    "color": "#0079BF"
+  },
+  "capabilities": [
+    "board-buttons"
+  ],
+  "show_on": {
+    "boards": "always"
+  }
 }
-
   
