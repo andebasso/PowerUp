@@ -1,21 +1,16 @@
 {
-  "name": "Simple Power-Up",
-  "description": "Um Power-Up simples para o Trello.",
+  "name": "Hello World Power-Up",
+  "description": "My Trello Power-Up",
   "author": {
-    "name": "Anderson Basso",
-    "url": "https://andebasso.github.io/PowerUp/"
+    "name": "Anderson Oliveira",
   },
   "icon": {
-    "path": "images/icon.png"
+    "url": "https://andebasso.github.io/PowerUp/icon.png",
+    "color": "#4bbf6b"
   },
   "capabilities": {
-    "callback": {
-      "url": "https://andebasso.github.io/PowerUp/"
-    }
+    "card-buttons": "https://andebasso.github.io/PowerUp/index.html",
   },
-  "show_on": {
-    "boards": true
-  }
+  "showKey": false
 }
-
   
