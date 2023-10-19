@@ -1,0 +1,24 @@
+{
+    "name": "Trello KPI",
+    "description": "A Trello Power-Up to track KPIs.",
+    "icon": {
+      "url": "https://andebasso.github.io/PowerUp/icon.png",
+      "color": "#0079bf"
+    },
+    "capabilities": {
+      "cardButtons": [
+        {
+          "icon": {
+            "url": "https://andebasso.github.io/PowerUp/icon.png",
+            "color": "#0079bf"
+          },
+          "text": "Open KPI",
+          "callback": "openKPI"
+        }
+      ],
+      "iframe": {
+        "url": "https://andebasso.github.io/PowerUp/index.html"
+      }
+    }
+  }
+  
